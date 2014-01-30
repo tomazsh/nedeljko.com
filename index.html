@@ -1,25 +1,39 @@
 <!doctype html>
-<html>
+<html prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="utf-8">
     <title>Tomaz Nedeljko</title>
     <meta name="description" content="Tomaz Nedeljko is a designer and developer living and working in Berlin, Germany">
     <meta name="author" content="Tomaz Nedeljko">
+    <meta property="og:title" content="Tomaz Nedeljko">
+    <meta property="og:description" content="Tomaz Nedeljko is a designer and developer living and working in Berlin, Germany">
+    <meta property="og:type" content="person">
+    <meta property="og:url" content="http://nedeljko.com">
     <meta property="twitter:account_id" content="149611217">
     <style type="text/css" media="screen">
-    body,div,h1,h2,html,li,p,ul{margin:0;padding:0;background:#fff;color:#000;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:20px;font-weight:400;font-style:italic;text-transform:uppercase;line-height:2;letter-spacing:.2em;white-space:nowrap;-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;-ie-font-smoothing:antialiased;-o-font-smoothing:antialiased;font-smoothing:antialiased}body{position:absolute;top:0;left:0;right:0;bottom:0}.table{display:table;width:100%;height:100%}.cell{display:table-cell;text-align:center;vertical-align:middle}.content{display:inline-block;width:auto;height:auto;margin-left:-0.5em;-webkit-transform:rotate(-9.5deg);-moz-transform:rotate(-9.5deg);-ie-transform:rotate(-9.5deg);-o-transform:rotate(-9.5deg);transform:rotate(-9.5deg)}a{color:inherit}header{margin-bottom:1.5em}h1{margin-left:1.3em;margin-right:-1.2px;text-align:left}h2{margin-left:.9em;margin-right:-.85em;text-align:center}h2+h2{margin-left:.55em;margin-right:-.5em;text-align:right}p{margin-bottom:1.5em}nav{margin-left:-.6em;margin-right:.65em;text-align:right}li{list-style:none;display:inline}nav li:before{content:'\025BD\00020'}nav li:first-child:before{content:''}
+    body,div,h1,h2,html,li,p,ul{margin:0;padding:0;background:black;color:white;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:20px;font-weight:400;font-style:italic;text-transform:uppercase;line-height:2;letter-spacing:.2em;white-space:nowrap;-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;-ie-font-smoothing:antialiased;-o-font-smoothing:antialiased;font-smoothing:antialiased}body{position:absolute;top:0;left:0;right:0;bottom:0}.table{display:table;width:100%;height:100%}.cell{display:table-cell;text-align:center;vertical-align:middle}.content{display:inline-block;width:auto;height:auto;margin-left:-0.5em;-webkit-transform:rotate(-9.5deg);-moz-transform:rotate(-9.5deg);-ie-transform:rotate(-9.5deg);-o-transform:rotate(-9.5deg);transform:rotate(-9.5deg)}a{color:inherit}header{margin-bottom:1.5em}h1{margin-left:1.3em;margin-right:-1.2px;text-align:left}h2{margin-left:.9em;margin-right:-.85em;text-align:center}h2+h2{margin-left:.55em;margin-right:-.5em;text-align:right}p{margin-bottom:1.5em}nav{margin-left:-.6em;margin-right:.65em;text-align:right}li{list-style:none;display:inline}nav li:before{content:'\025BD\00020'}nav li:first-child:before{content:''}
     </style>
   </head>
   <body>
     <div class="table"><div class="cell">
-        <div class="content">
+        <div class="content" itemscope itemtype="http://schema.org/Person">
           <header>
-            <h1>Tomaz Nedeljko</h1>
-            <h2>Designer and Developer</h2>
-            <h2>Berlin, Germany</h2>
+            <h1>
+              <span itemprop="givenName">Tomaz</span>
+              <span itemprop="familyName">Nedeljko</span>
+            </h1>
+            <h2 itemprop="jobTitle">Designer and Developer</h2>
+            <h2 itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+              <span itemprop="addressLocality">Berlin</span>,
+              <span itemprop="addressCountry"><span itemprop="name">Germany</span></span>
+            </h2>
           </header>
-          <p>Currently Making User Interfaces at
-            <a href="https://readmill.com/tomazsh" title="Readmill">Readmill</a></p>
+          <p>
+            Currently making user interfaces at
+            <a href="https://readmill.com/tomazsh" title="Readmill" itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+              <span itemprop="name">Readmill</span>
+            </a>
+          </p>
           <nav>
             <ul>
               <li>
