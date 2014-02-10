@@ -11,10 +11,14 @@
     <meta property="og:url" content="http://nedeljko.com">
     <meta property="twitter:account_id" content="149611217">
     <style type="text/css" media="screen">
-    body,div,h1,h2,html,li,p,ul{margin:0;padding:0;background:black;color:white;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:20px;font-weight:400;font-style:italic;text-transform:uppercase;line-height:2;letter-spacing:.2em;white-space:nowrap;-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;-ie-font-smoothing:antialiased;-o-font-smoothing:antialiased;font-smoothing:antialiased}body{position:absolute;top:0;left:0;right:0;bottom:0}.table{display:table;width:100%;height:100%}.cell{display:table-cell;text-align:center;vertical-align:middle}.content{display:inline-block;width:auto;height:auto;margin-left:-0.5em;-webkit-transform:rotate(-9.5deg);-moz-transform:rotate(-9.5deg);-ie-transform:rotate(-9.5deg);-o-transform:rotate(-9.5deg);transform:rotate(-9.5deg)}a{color:inherit}header{margin-bottom:1.5em}h1{margin-left:1.3em;margin-right:-1.2px;text-align:left}h2{margin-left:.9em;margin-right:-.85em;text-align:center}h2+h2{margin-left:.55em;margin-right:-.5em;text-align:right}p{margin-bottom:1.5em}nav{margin-left:-.6em;margin-right:.65em;text-align:right}li{list-style:none;display:inline}nav li:before{content:'\025BD\00020'}nav li:first-child:before{content:''}
+    body{background:white;color:white;}body,div,h1,h2,html,li,p,ul{margin:0;padding:0;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:20px;font-weight:400;font-style:italic;text-transform:uppercase;line-height:2;letter-spacing:.2em;white-space:nowrap;-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;-ie-font-smoothing:antialiased;-o-font-smoothing:antialiased;font-smoothing:antialiased}body{position:absolute;top:0;left:0;right:0;bottom:0}.table{display:table;width:100%;height:100%}.cell{display:table-cell;text-align:center;vertical-align:middle}.content{display:inline-block;width:auto;height:auto;margin-left:-0.5em;-webkit-transform:rotate(-9.5deg);-moz-transform:rotate(-9.5deg);-ie-transform:rotate(-9.5deg);-o-transform:rotate(-9.5deg);transform:rotate(-9.5deg)}a{color:inherit}header{margin-bottom:1.5em}h1{margin-left:1.3em;margin-right:-1.2px;text-align:left}h2{margin-left:.9em;margin-right:-.85em;text-align:center}h2+h2{margin-left:.55em;margin-right:-.5em;text-align:right}p{margin-bottom:1.5em}nav{margin-left:-.6em;margin-right:.65em;text-align:right}li{list-style:none;display:inline}nav li:before{content:'\025BD\00020'}nav li:first-child:before{content:''}
     </style>
+    <script>
+    var themes=[["black","white"],["white","black"],["#ff0000","#0000ff"],["#00ff00","#0000ff"],["#0000ff","white"],["#ff00ff","#ffff00"],["#ffff00","#0000ff"]];function setRandomTheme(){var a=Math.floor(Math.random()*themes.length);var c=themes[a];var b=document.body.style;b.backgroundColor=c[0];b.color=c[1]};
+    </script>
+    <noscript><style>body{background:black;color:white;}</style></noscript>
   </head>
-  <body>
+  <body onload="setRandomTheme();">
     <div class="table"><div class="cell">
         <div class="content" itemscope itemtype="http://schema.org/Person">
           <header>
