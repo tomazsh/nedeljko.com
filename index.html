@@ -2,12 +2,12 @@
 <html prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="utf-8">
-    <title>Tomaz Nedeljko</title>
-    <meta name="description" content="Tomaz Nedeljko is a designer and developer living and working in San Francisco.">
-    <meta name="author" content="Tomaz Nedeljko">
+    <title>Toma&zcaron; Nedeljko</title>
+    <meta name="description" content="Toma&zcaron; Nedeljko is a designer and developer living and working in San Francisco.">
+    <meta name="author" content="Toma&zcaron; Nedeljko">
     <meta name="viewport" content="width=360, initial-scale=1, minimal-ui">
-    <meta property="og:title" content="Tomaz Nedeljko">
-    <meta property="og:description" content="Tomaz Nedeljko is a designer and developer living and working in San Francisco.">
+    <meta property="og:title" content="Toma&zcaron; Nedeljko">
+    <meta property="og:description" content="Toma&zcaron; Nedeljko is a designer living and working in San Francisco.">
     <meta property="og:type" content="person">
     <meta property="og:url" content="http://nedeljko.com">
     <meta property="twitter:account_id" content="149611217">
@@ -15,6 +15,11 @@
     * {
       margin: 0;
       padding: 0;
+    }
+
+    ::selection {
+      color: black;
+      background: white;
     }
 
     section, header, hgroup, footer, aside {
@@ -27,86 +32,40 @@
     }
     
     body {
-      font-family: "Helvetica Neue", sans-serif;
-      font-size: 10px;
+      overflow: hidden;
+      font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+      font-size: 12px;
       font-weight: 500;
-      line-height: 1.2;
-      text-align: center;
+      line-height: 1.5;
       text-transform: uppercase;
       -webkit-text-rendering: optimizeLegibility;
       text-rendering: optimizeLegibility;
       -webkit-font-smoothing: subpixel-antialiased;
-      color: black;
-      background: white;
-    }
-    
-    a {
-      display: inline-block;
-      position: relative;
-      color: inherit;
-      text-decoration: none;
-      border-bottom: 1px solid black;
-      line-height: 1;
-    }
-    
-    header {
-      margin-bottom: 1.2em;
-    }
-    
-    nav {
-      margin-top: 1.2em;
-    }
-    
-    ul {
-      list-style: none;
-    }
-    
-    li {
-      display: inline;
-    }
-    
-    li:before {
-      content: " · ";
-    }
-    
-    li.first:before {
-      content: "";
-    }
-    
-    .night {
       color: white;
       background: black;
     }
     
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+    
+    ul {
+      margin-top: 3em;
+      list-style: none;
+    }
+    
     .content {
-      position: absolute;
-      width: 32em;
-      height: 8.4em;
-      top: 50%;
-      left: 50%;
-      margin-top: -4.2em;
-      margin-left: -16em;
+      padding: 76px 80px;
     }
     </style>
-    <script>
-        function onLoad() {
-          var date = new Date();
-          var hours = date.getHours();
-          if (hours < 6 || hours > 18) {
-            document.body.className = "night";
-          }
-        }
-        </script>
   </head>
-  <body onload="onLoad()">
+  <body>
     <div class="content" itemscope itemtype="http://schema.org/Person">
       <header>
-        <h1><span itemprop="givenName">Tomaz</span> <span itemprop="familyName">Nedeljko</span></h1>
+        <h1><span itemprop="givenName">Toma&zcaron;</span> <span itemprop="familyName">Nedeljko</span></h1>
+        <h2><span itemprop="jobTitle">Designer</span></h2>
       </header>
-      <p>I live in <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">San Francisco</span></span> and work at <a href="http://dropbox.com/" title="Dropbox" itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><span itemprop="name">Dropbox</span></a>.<br />
-        Not long ago, I lived in Berlin and worked at <a href="http://readmill.com/" title="Readmill">Readmill</a>.<br />
-        I co-created <a href="http://pomoji.com/" title="Pomoji">Pomoji</a>, an app for text and emoji art.
-      </p>
       <nav>
         <ul>
           <script type="text/javascript">
@@ -125,7 +84,9 @@
           //-->
           //]]>
           </script>
+          <li><a href="https://www.linkedin.com/in/tomazsh" title="LinkedIn">LinkedIn</a></li>
           <li><a href="https://twitter.com/tomazsh" title="Twitter">Twitter</a></li>
+          <li><a href="https://www.instagram.com/tmzsh" title="Instagram">Instagram</a></li>
         </ul>
       </nav>
     </div>
